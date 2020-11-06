@@ -1,18 +1,32 @@
 import React from "react";
 import "./chat.css";
 import ChatHeader from "./ChatHeader";
-import AddCircleIcon from '@material-ui/icons/AddCircle';
+import AddCircleIcon from "@material-ui/icons/AddCircle";
+import CardGiftcardIcon from "@material-ui/icons/CardGiftcard";
+import GifIcon from "@material-ui/icons/Gif";
+import EmojiEmotionsIcon from "@material-ui/icons/EmojiEmotions";
+import Message from "./Message";
 
 function Chat() {
   return (
     <div className="chat">
       <ChatHeader />
-      <div className="chat_message"></div>
+      <div className="chat_message">
+        <Message />
+      </div>
       <div className="chat_input">
-        <AddCircleIcon fontSize="large"/>
+        <AddCircleIcon fontSize="large" />
         <form>
-          <input placeholder="message #ajit"/> 
+          <input placeholder="message #ajit" />
+          <button className="chat_inputbtn" type="submit">
+            Send Message
+          </button>
         </form>
+        <div className="chat_inputicons">
+          <CardGiftcardIcon fontSize="large" />
+          <GifIcon fontSize="large" />
+          <EmojiEmotionsIcon fontSize="large" />
+        </div>
       </div>
     </div>
   );

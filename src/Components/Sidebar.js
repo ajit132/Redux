@@ -48,10 +48,8 @@ function Sidebar() {
       <div className="sidebar_profile">
         <Avatar />
         <div className="sidebar_profileinfo">
-          <h3>@ajit12</h3>
           <h3>Ajit Gurung</h3>
           <p>#wow it's awesome</p>
-          <p>This is a test id</p>
         </div>
         <div className="sidebar_profileicons">
           <MicIcon />
