@@ -33,8 +33,11 @@
   display: flex;
   align-items: center;
 }
+.sidebar_voice,
 .sidebar_voice {
+.sidebar_profile {
   display: flex;
+  justify-content: space-between;
   justify-content: spacce-between;
   align-items: center;
   color: gray;
@@ -59,6 +62,18 @@
   padding: 10px;
   box-sizing: content-box;
 }
+.sidebar_profileinfo {
+  flex: 1;
+  padding: 10px;
+}
+.sidebar_profileinfo > h3 {
+  color: white;
+}
+.sidebar_profileicons > .MuiSvgIcon-root {
+  padding: 10px;
+  box-sizing: content-box;
+}
+.sidebar_profileinfo > p {
 .sidebar_profile {
   display: flex;
   justify-content: spacce-between;
@@ -71,7 +86,9 @@
 .sidebar_profileinfo {
   flex: 1;
   padding: 10px;
+  font-size: smaller;
 }
+
 .sidebar_profile > h3 {
   color: white;
 }
@@ -81,4 +98,3 @@
 }
 .sidebar_profileinfo > p {
   font-size: smaller;
-}
