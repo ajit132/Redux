@@ -34,7 +34,6 @@
   align-items: center;
 }
 .sidebar_voice,
-.sidebar_voice {
 .sidebar_profile {
   display: flex;
   justify-content: space-between;
@@ -73,16 +72,6 @@
   padding: 10px;
   box-sizing: content-box;
 }
-.sidebar_profileinfo > p {
-.sidebar_profile {
-  display: flex;
-  justify-content: spacce-between;
-  align-items: center;
-  color: gray;
-  background-color: #2f3135;
-  padding: 10px;
-  border-top: 1px solid gray;
-}
 .sidebar_profileinfo {
   flex: 1;
   padding: 10px;
@@ -98,3 +87,4 @@
 }
 .sidebar_profileinfo > p {
   font-size: smaller;
+}
